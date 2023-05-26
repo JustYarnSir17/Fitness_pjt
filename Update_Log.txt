@@ -1,0 +1,147 @@
+.운동 카테고리화
+유튜브 주소 기입 자동 등록
+관리자 대시보드 (운동영상 / 회원목록에서 삭제)
+
+2023_05_10 (화)
+
+1. 1rm (단순히 계산 공식) 
+2. 계산 (1rm을 기반으로 고중량, 저중량에 따라 운동을 제시)
+3. 운동영상 (부위별 추천 영상)
+
+1. 로그인 / 로그아웃
+2. 영상 찜(좋아하는 영상)
+운동별 1rm 기록
+이를 기반으로 운동 방식 전환 
+
+2023_05_11 (수)
+
+-DB-
+User
+Video
+Review
++
+Favorites ( user.id , video.id ) // row 수가 많아진다는 단점.
+1reps (카테고리) (벤치, 스쾃, 데드, 바벨로우, 밀리터리프레스)
+분화할 때 저걸 위주로 짜주는 거지 
+
+벤치 - 플랫, 인클라인, 덤벨
+데드 - 데드
+바벨로우 - 로우류
+밀리터리 프레스 - 숄더
+스쾉 - 
+
+2023_05_12 (목)
+
+-Spring-
+1. model.dto
+User.java
+Video.java
+Review.java
+Favorites.java
+1rmWeight.java
+SearchCondition.java (User, Video 공통)
+
+2. model.dao
+UserDao.java
+VideoDao.java
+ReviewDao.java
+
+3. Controller
+UserRestController.java
+VideoRestController.java
+ReviewRestController.java
+WeightRestController.java
+
+4. model.service
+UserService.java
+UserServiceImpl.java
+VideoService.java
+VideoServiceImpl.java
+ReviewService.java
+ReviewServiceImpl.java
+
+5. mappers
+userMapper.xml
+videoMapper.xml
+reviewMapper.xml
+
+6. static
+application.properties (소스 연결)
+shcema.sql 작성
+
+훈련방식을 출력하는 건 저장하지 않고 프론트 단위에서 메소드를 통해 출력하는 정도
+또한 저장을 하고 싶다면 클립보드에 복사하는 기능 정도만 추가 추후 수정 가능 
+
+데드 - 100 : 훈련방식 선택 -> 
+
+벤치 - 100
+스쾃 - 100
+..
+
+2023.05.18(목)
+일반사용자의 회원목록대시보드 : 아이디 / 이름 / 이메일 / 나이 / 관리(회원탈퇴)
+관리자 회원목록대시보드 : 아이디 / 이름
+
+대시보드에서 아이디 클릭시 userDetail 로 연결. (loginUser 가 해당 id 일때만 클릭가능하게)
+admin도 예외는 없음.
+
+회원탈퇴 : 회원탈퇴 클릭 시 modal 이벤트를 열어서 해당 회원 delete() method 호출. id를 전달해서 삭제 진행. admin계정은 탈퇴못하도록 막음.
+
+검색창 : 검색창이 비어있을 경우, 전체 결과가 나오는것이 아니라 내용을 입력해달라고 alert 창을 띄움.
+
+헤더에 로그인 시 나의정보 / 로그아웃 을 dropdown 으로 만듬.
+운동부위고르기 dropdown 만들기만함 (링크는 연결 안함)
+
+
+2023.05.19(목)
+로그인 이후 회원가입 링크 보이지 않게 만들었습니다.
+
+회원가입 후 로그인 창으로 push하도록 수정했습니다.
+
+로그아웃 후 로그 아웃 알람 및 메인 화면으로 push하도록 수정했습니다.
+
+회원목록에서 검색 시 본인 정보만 열람 가능하도록 변경했습니다.
+
+LoginForm / UserRegist / UserDetail 창 디자인 통일 진행.
+
+VideoDetail 기능 구현 : 로그인했을때만 리뷰작성하기 가능 + admin 일때만 영상수정 가능.
+ReviewRegist (VideoDetail 에서만 가능하게.)
+ReviewSearch (ReviewSearchVieoid 로 videoid 로 검색해서 해당 video 에 해당하는 review 목록을 출력.)
+
+
+2023.05.22(월)
+1. 리뷰 디자인 변경.
+2. 영상등록 '로그인' 시에만 가능하도록 변경.
+3. 영상등록 운동부위, YoutubeURL 만 받아서 JSOUP 으로 비디오 상세 내용 받아오기
+4. bard api 연결 시도
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 9da3382f720231036b5a74a706205a5c440d66f9
+5. bard api 연결 성공. 운동부위 자동 인식 구현.
+6. reviews Table 에 title : VARCHAR -> TEXT 로 변환. (길이 초과시 에러나기 때문)
+7. videos Table 에 title : VARCHAR -> TEXT 로 변환.
+8. bard api -> 리뷰작성시 욕설 판별 구현.
+<<<<<<< HEAD
+>>>>>>> 9da3382f720231036b5a74a706205a5c440d66f9
+=======
+>>>>>>> 9da3382f720231036b5a74a706205a5c440d66f9
+
+2023.05.23(화)
+1. JWT 연결 약식 구현.
+2. Bard api -> 1RM 측정 구현.
+
+2023.05.24(수)
+1. JWT 연결 User 객체 전부가 아닌 Id, Name만 전달하도록 구현
+2. 1번에 따른 유저 정보 수정, 정보 삭제 등의 기능 수정
+3. 영상 상세 정보 좋아요 버튼 생성 및 db 연결
+4. 운동 부위에 따른 표시 영상 구분
+5. Bard AI 운동 루틴 추천 구현
+6. Bard AI 운동 식단 추천 구현
+7. 운동리뷰 수정.
+
+2023.05.25(목)
+1. 전체 디자인 수정.
+2. 발표자료 작성.
+3. 발표영상 제작.
