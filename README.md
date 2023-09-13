@@ -1,14 +1,19 @@
 # SYnergy
 
-##목차
-[1.프로젝트 PPT](#프로젝트-PPT)
+## 목차
+[1.서비스 소개T](#서비스-소개)
 
 [2.코딩을 잘하고 싶어요](#coding을-잘하고-싶어요)
 
-## 프로젝트 PPT
+
+## 서비스 소개
 
 ![SYnergy-page-001](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/cebe6547-428f-4a0f-a418-f869ee3f6d3f)
 ![SYnergy-page-002](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/83abfafa-83d7-4ca8-b969-13d1fca54fbd)
+
+
+## 프로젝트 PPT
+
 ![SYnergy-page-003](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/2bb053d1-ee34-444b-a2fa-e6b80a12dcda)
 ![SYnergy-page-004](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/8b583beb-a092-4b53-b526-e410df3e66cc)
 ![SYnergy-page-005](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/08402ddb-f31c-4d1e-839f-68860c89800e)
