@@ -25,6 +25,8 @@
 ### 의의
 * 다양한 운동 정보를 한 곳에서 확인할 수 있기에 편리함을 제공할 수 있다.
 * 자신의 개인적인 운동 정보를 토대로 구글 BARD AI를 통해 새로운 정보를 추출할 수 있다.
+## 기능 소개
+![SYnergy_gif](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/9a19384a-d647-4192-b605-a7b8b09cfd5c)
 
 ## 프로젝트 PPT
 ![SYnergy-page-001](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/cebe6547-428f-4a0f-a418-f869ee3f6d3f)
