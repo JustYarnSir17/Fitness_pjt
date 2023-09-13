@@ -1,42 +1,10 @@
 # SYnergy
 
 ##목차
+[1.프로젝트 PPT](#프로젝트-PPT)
+[2.코딩을 잘하고 싶어요](#coding을-잘하고-싶어요)
 
-1. [깨끗한 코드](#1장.-깨끗한-코드)
-2. [의미 있는 이름](#2장.-의미-있는-이름)
-
----
-## 1장.깨끗한 코드
-### 보이스카우트 규칙
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ㅁㄴㅇㄻㄴㅇㄹ
-- [1장.깨끗한 코드](#1-------)
-  * [보이스카우트 규칙](#---------)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+## 프로젝트 PPT
 
 ![SYnergy-page-001](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/cebe6547-428f-4a0f-a418-f869ee3f6d3f)
 ![SYnergy-page-002](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/83abfafa-83d7-4ca8-b969-13d1fca54fbd)
@@ -52,3 +20,4 @@
 ![SYnergy-page-012](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/7e17fc6f-b3cb-4cd1-8561-99767ff3ee81)
 ![SYnergy-page-013](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/689f3a0c-183d-4c79-b3e8-089df24a411a)
 
+## Coding을 잘하고 싶어요
