@@ -2,6 +2,8 @@
 
 ## 목차
 [1.서비스 소개T](#서비스-소개)
+
+
 [2.코딩을 잘하고 싶어요](#coding을-잘하고-싶어요)
 
 
@@ -9,9 +11,8 @@
 
 ![SYnergy-page-001](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/cebe6547-428f-4a0f-a418-f869ee3f6d3f)
 
----
-### 서비스 설명
----
+## 서비스 설명
+# 개요
 
 ## 프로젝트 PPT
 ![SYnergy-page-001](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/cebe6547-428f-4a0f-a418-f869ee3f6d3f)
