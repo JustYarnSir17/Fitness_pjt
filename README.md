@@ -1,5 +1,21 @@
 # SYnergy
 
+##목차
+
+1. [깨끗한 코드](#1장.-깨끗한-코드)
+2. [의미 있는 이름](#2장.-의미-있는-이름)
+
+---
+## 1장.깨끗한 코드
+### 보이스카우트 규칙
+
+
+
+- [1장.깨끗한 코드](#1-------)
+  * [보이스카우트 규칙](#---------)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ![SYnergy-page-001](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/cebe6547-428f-4a0f-a418-f869ee3f6d3f)
 ![SYnergy-page-002](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/83abfafa-83d7-4ca8-b969-13d1fca54fbd)
 ![SYnergy-page-003](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/2bb053d1-ee34-444b-a2fa-e6b80a12dcda)
