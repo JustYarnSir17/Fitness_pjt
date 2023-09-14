@@ -1,6 +1,6 @@
 # SYnergy
+![cyberlogo](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/8dafdc32-5b38-4de9-8adc-7807412c31aa)
 
-![logo2](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/594588b4-b0c2-428f-bd7f-2b656df62aa0)
 ## 목차
 [1. 서비스 소개](#서비스-소개)
 
