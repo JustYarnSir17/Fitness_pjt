@@ -31,13 +31,15 @@
 
 
 ## 기술 스택
-#6DB33F 
-#4FC08D
-#F7DF1E
-#E34F26
-#1572B6
-#4479A1
-#F05032
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
+<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white">
+<img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+
 
 ## 프로젝트 PPT
 ![SYnergy-page-001](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/57fae11a-e4ce-4f6d-ba01-dc6e1135528a)
