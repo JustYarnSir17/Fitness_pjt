@@ -14,6 +14,7 @@
  
 
 ## 서비스 소개
+![logo2](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/594588b4-b0c2-428f-bd7f-2b656df62aa0)
 
 ![SYnergy-page-001](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/57fae11a-e4ce-4f6d-ba01-dc6e1135528a)
 
