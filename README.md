@@ -29,6 +29,16 @@
 ## 기능 소개
 ![SYnergy_gif](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/825d7e3e-7674-4c2e-99a2-577b0f449c33)
 
+
+## 기술 스택
+#6DB33F 
+#4FC08D
+#F7DF1E
+#E34F26
+#1572B6
+#4479A1
+#F05032
+
 ## 프로젝트 PPT
 ![SYnergy-page-001](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/57fae11a-e4ce-4f6d-ba01-dc6e1135528a)
 ![SYnergy-page-002](https://github.com/JustYarnSir17/Fitness_pjt/assets/122420033/cd0519ab-c477-4181-abad-5dd4948892ed)
